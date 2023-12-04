@@ -26,7 +26,6 @@ class Solution {
         if(list.isEmpty()){
             list.add(-1);
         }
-        System.out.println(list);
 
         return list;
     }
