@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Solution {
-    public int[] solution(int n) {
+    public ArrayList<Integer> solution(int n) {
         
         ArrayList<Integer> list = new ArrayList();
         list.add(n);
@@ -13,13 +13,8 @@ class Solution {
                 n= (n*3)+1;
             }
             list.add(n);
-            if(n==1){
-                break;
-            }
-        }
-        int[] answer = list.stream().mapToInt(i -> i).toArray();
+        }        
         
-        
-        return answer;
+        return list;
     }
 }
