@@ -3,11 +3,9 @@ import java.util.*;
 class Solution {
     public ArrayList solution(String my_string) {
         
-        char[] arr = my_string.toCharArray();      
         ArrayList list = new ArrayList();
-        
-        for(int i=0;i<arr.length;i++){
-            list.add((int)arr[i]);
+        for(int i=0;i<my_string.length();i++){
+            list.add((int)my_string.charAt(i));
         }
         
         ArrayList result = new ArrayList();
