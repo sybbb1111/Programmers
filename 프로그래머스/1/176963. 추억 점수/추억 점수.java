@@ -9,7 +9,6 @@ class Solution {
         for(int i=0;i<name.length;i++){
             list.add(name[i]);
         }
-        System.out.println(list);
         
         for(int i=0;i<photo.length;i++){
                 int re = 0;
